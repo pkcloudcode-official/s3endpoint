@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: s3endpoint
+
+aws:
+  accessKeyId: YOUR_AWS_ACCESS_KEY
+  secretKey: YOUR_AWS_SECRET_KEY
+  region: ca-central-1
+  s3:
+    bucket:
+      name: my-product-files
